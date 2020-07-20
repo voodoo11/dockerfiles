@@ -6,4 +6,4 @@ RUN apt -qq update && \
     apt -yqq install krb5-user && \
     apt -yqq clean
 
-CMD ["cat", "/etc/krb5.conf"]
+CMD ["python3"]
